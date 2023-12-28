@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZestyZest Register</title>
+    <link rel="stylesheet" type="text/css" href="register.css">
+</head>
+<body>
+
+    <div id="header">
+        <header>
+            <!-- Your header content goes here -->
+        </header>
+    </div>
+
+    <div id="main-content">
+        <section class="register-section">
+            <div class="register-container">
+                <h2>Create an Account on ZestyZest</h2>
+                <form action="register_process.php" method="post">
+                    <label for="hotelname">Hotel Name:</label>
+                    <input type="text" id="hotelname" name="hotelname" required>
+
+                    <label for="email">Email ID:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+
+                    <label for="confirm-password">Confirm Password:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+
+                    <button type="submit">Register</button>
+                </form>
+                <p>Already have an account? <a href="login.html">Login here</a></p>
+            </div>
+        </section>
+    </div>
+
+    <div id="footer">
+        <footer>
+            <!-- Your footer content goes here -->
+        </footer>
+    </div>
+
+</body>
+</html>
