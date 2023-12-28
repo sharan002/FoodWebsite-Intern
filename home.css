@@ -84,6 +84,29 @@ nav a:hover {
     font-size: 1.2em;
     font-family: 'Times New Roman', Times, serif; /* Updated font size */
 }
+.featured-images {
+    padding: 50px 0;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.image-item {
+    flex-basis: 30%;
+    text-align: center;
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+
 
 
 #footer {
