@@ -1,40 +1,67 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
 }
 
-#header {
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
     background-color: #333;
     color: #fff;
+}
+
+#userid, #searchid, .fa-house, .fa-hotel, .fa-plus {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+#userid, #searchid {
+    margin-right: 5px;
+}
+#searchid{
+    margin-left: 0px;
+}
+
+
+#searchInput {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+#cuisine-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.menu-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
-#profile-icon {
-    cursor: pointer;
-    margin: 20px;
-}
-
-#profile-details {
-    display: none;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-#search-icon {
-    cursor: pointer;
-    margin: 20px;
-}
-
-#search-bar {
-    display: none;
-    margin: 20px;
-    padding: 10px;
-    border: 1px solid #333;
+.menu-item img {
+    max-width: 100px;
     border-radius: 5px;
-    width: 200px;
+    margin-bottom: 10px;
+}
+
+.dish-details {
+    flex-grow: 1;
 }
