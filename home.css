@@ -84,6 +84,36 @@ nav a:hover {
     font-size: 1.2em;
     font-family: 'Times New Roman', Times, serif;
 }
+.featured-images {
+    padding: 50px 0;
+}
+#hoteling h2{
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    border: 3cap solid hsla(296, 96%, 19%, 0.999);
+    background-color: hsl(305, 57%, 75%);
+}
+
+.image-item {
+    flex-basis: 30%;
+    text-align: center;
+    border: 2px solid rgb(172, 76, 194);
+    /* box-shadow: 10px 20px 3px rgb(24, 23, 23); */
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px 20px 3px;
+}
+
+
 
 
 #footer {
