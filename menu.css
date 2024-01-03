@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+#userid, #searchid, .fa-house, .fa-hotel, .fa-plus {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+#userid, #searchid {
+    margin-right: 5px;
+}
+#searchid{
+    margin-left: 0px;
+}
+
+
+#searchInput {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+#cuisine-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.menu-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.menu-item img {
+    max-width: 100px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.dish-details {
+    flex-grow: 1;
+}
