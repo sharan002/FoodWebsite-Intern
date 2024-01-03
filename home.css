@@ -1,9 +1,10 @@
+
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff; 
 }
 
 header {
@@ -14,16 +15,16 @@ header {
 }
 
 nav {
-    background-color: antiquewhite;
+    background-color: #333;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: black;
+    color: #333;
     padding: 10px 0;
 }
 
 nav a {
-    color: black;
+    color: #fff;
     text-decoration: none;
     padding: 0.5em 1em;
     transition: background-color 0.3s;
@@ -34,16 +35,16 @@ nav a:hover {
 }
 
 .login-btn, .register-btn {
-    background-color: silver;
+    background-color: #3498db; /* Blue */
     border-radius: 5px;
-    color: black;
+    color: #fff;
     text-decoration: none;
     padding: 0.5em 1em;
-    transition: background-color 0.3s, transform 0.3;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 .login-btn:hover, .register-btn:hover {
-    background-color: plum;
+    background-color: #2980b9; /* Darker blue on hover */
 }
 
 .login-btn:active, .register-btn:active {
@@ -51,7 +52,7 @@ nav a:hover {
 }
 
 #main-content {
-    background-color: #f8f8f8;
+    background-color: #fff;
     padding: 20px;
 }
 
@@ -112,15 +113,15 @@ nav a:hover {
 }
 
 #specials-section {
-    background-color: #f8f8f8;
+    background-color: #fff;
     padding: 20px;
 }
 
 .specials, .featured-special, .seasonal-special {
     max-width: 8000px;
-    margin: 10px auto;
+    margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #fff
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -139,7 +140,7 @@ nav a:hover {
     margin-top: 20px;
     text-decoration: none;
     color: #fff;
-    background-color: #e8491d;
+    background-color: #e8491d; /* Orange */
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
@@ -149,7 +150,7 @@ nav a:hover {
 }
 
 #footer {
-    background-color: antiquewhite;
+    background-color: #333;
     color: #fff;
     text-align: center;
     padding: 2em 0;
@@ -158,16 +159,16 @@ nav a:hover {
 .footer-content {
     display: flex;
     justify-content: space-around;
-    color: black;
+    color: #fff;
 }
 
 .footer-section {
     flex: 1;
-    color: black;
+    color: #fff;
 }
 
 footer a {
-    color: black;
+    color: #fff;
     text-decoration: none;
     display: block;
     margin-top: 0.5em;
@@ -182,7 +183,7 @@ footer a:hover {
     top: 0;
     width: 100%;
     z-index: 1000;
-    color: black;
+    color: #333;
 }
 
 @media (max-width: 600px) {
@@ -198,5 +199,8 @@ footer a:hover {
 }
 
 footer p {
-    color: black;
+    color: #fff;
 }
+```
+
+This provides a clean and professional color scheme, using shades of gray, blue, and orange. Adjust the colors as needed for your specific brand or design preferences.
