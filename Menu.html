@@ -7,6 +7,7 @@
     <link rel="icon"  type="icon/png" href="image/zastyfavicon.png">
     <title>zestyzest</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"  />
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -14,9 +15,9 @@
         
         <input type="search" id="searchInput" name="search" placeholder="Type your search ">
         <i  id ="searchid"class="fa-solid fa-magnifying-glass"></i>
-        <i class="fa-solid fa-house"></i>
+        <a href="home.html"><i class="fa-solid fa-house"></i></a>
         <i class="fa-solid fa-hotel"></i>
-        <i class="fa-solid fa-plus"></i>
+        <a href="#add-section"><i class="fa-solid fa-plus" "></i></a>
     </header>
     
 
@@ -53,14 +54,31 @@
                    
                 </div>
             </div>
-            <!-- Add more menu items as needed -->
+           
         </section>
         
+        <section id="add-section">
+            <div class="form-container">
+                <form>
+                    <label for="restaurantName">Restaurant Name:</label>
+                    <input type="text" id="restaurantName" name="restaurantName" required><br>
+
+                    <label for="cuisineType">Cuisine Type:</label>
+                    <input type="text" id="cuisineType" name="cuisineType" required><br>
+
+                    <label for="menuName">Menu Name:</label>
+                    <input type="text" id="menuName" name="menuName" required><br>
+
+                    <button type="button" onclick="addMenuItem()">Add</button>
+                </form>
+            </div>
+        </section>
+    </section>
     </section>
     
 
     
 
-    <script src="script.js"></script>
+    
 </body>
 </html>
