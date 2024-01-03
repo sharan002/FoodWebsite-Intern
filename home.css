@@ -113,6 +113,43 @@ nav a:hover {
     margin-bottom: 10px 20px 3px;
 }
 
+#specials-section {
+    background-color: #f8f8f8;
+    padding: 20px;
+    height: 100vh; /* Ensure the specials section takes up the full height of the viewport */
+  }
+  
+  .specials, .featured-special, .seasonal-special {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .specials h2, .featured-special h2, .seasonal-special h2 {
+    color: #333;
+  }
+  
+  .specials p, .featured-special p, .seasonal-special p {
+    color: #666;
+  }
+  
+  .specials-btn, .featured-special-btn, .seasonal-special-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #e8491d;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .specials-btn:hover, .featured-special-btn:hover, .seasonal-special-btn:hover {
+    background-color: #333;
+  }
 
 
 
