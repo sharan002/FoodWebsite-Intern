@@ -121,8 +121,8 @@ nav a:hover {
     max-width: 8000px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff
-    border-radius: 8px;
+    background-color: #fff;
+    border-radius:8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -201,6 +201,3 @@ footer a:hover {
 footer p {
     color: #fff;
 }
-```
-
-This provides a clean and professional color scheme, using shades of gray, blue, and orange. Adjust the colors as needed for your specific brand or design preferences.
